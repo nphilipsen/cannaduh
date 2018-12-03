@@ -1,0 +1,82 @@
+body {
+  background-color: #edeff2;
+}
+
+.back-image {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.centered-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    opacity: 0.8;
+    padding: 1em;
+}
+
+.back-image-contain {
+  width: 100%;
+  height: 45em;
+}
+
+.info-contain {
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 20em;
+}
+
+.column-left{
+  flex: 50%;
+  padding: 1.5em;
+  background-color: white;
+
+}
+
+.column-right{
+  flex: 50%;
+  padding: 1.5em;
+  background-color: #77C9D4;
+
+}
+
+.card-main {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 2em 15em 2em 15em;
+}
+
+.column-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.company-description {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
+  opacity: 0.8;
+  padding: 1em;
+}

@@ -1,0 +1,37 @@
+
+
+.footer-contain {
+  display: flex;
+  flex-direction: column;
+  background-color: #77C9D4;
+  height: 10em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.footer-content {
+  flex: 1 0 auto;
+}
+.footer-item {
+  flex-shrink: 0;
+}
+
+.li-left {
+  float: left;
+}
+
+.li-left-content {
+  width: 70em;
+}
+
+.li-right {
+  float: right;
+  margin: 4em;
+}
+
+.img-footer {
+  width: 9em;
+  height: 9em;
+}
+
+.text-footer {
+  vertical-align: middle;
+}

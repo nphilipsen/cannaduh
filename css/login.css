@@ -1,0 +1,67 @@
+
+.tinted-back-image {
+  /* The image used */
+    background-image: url("../img/loginBack.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+body, html {
+  height: 100%;
+}
+
+.home-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2em;
+  font-size: 2em;
+}
+
+.home-button-style {
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.form-contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px;
+  max-width: 350px;
+  padding: 16px;
+  background-color: white;
+  font-family: monospace;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.form-text {
+  width: 85%;
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-button {
+  background-color: #77C9D4;
+  color: white;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1em;
+}

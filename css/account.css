@@ -1,0 +1,62 @@
+.page-layout {
+
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: monospace;
+}
+
+.sidebar {
+  flex: 20%;
+  padding: 2em;
+  height: 70em;
+  /* position: fixed; */
+  background-color: green;
+}
+
+.sidebar a {
+  display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14pt;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+}
+
+.sidebar a:hover {
+  color: #064579;
+}
+
+.content-container {
+  flex: 80%;
+  margin-left: 3.5em;
+  height: 100%;
+  background-color: white;
+}
+
+.content-area {
+
+}
+
+#profile-image {
+  height: 20em;
+  width: 25em;
+}
+
+.content-header {
+
+}
+
+#support-ticket-textbox {
+  width: 40em;
+  height: 10em;
+}
+
+.profImg {
+  max-width: 30em;
+  max-height: 30em;
+}
+
+.proFig {
+  margin: 0em;
+}
