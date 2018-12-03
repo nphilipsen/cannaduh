@@ -62,7 +62,7 @@ CREATE TABLE Supplier (
 );
 
 CREATE TABLE Product (
-  productId INTEGER,
+  productId INTEGER AUTO_INCREMENT,
   productName VARCHAR(50),
   strain CHAR(6),
   potencyThc INTEGER,
