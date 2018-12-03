@@ -22,17 +22,10 @@
   <div class="page-layout">
     <div class="sidebar">
       <h1 class="sidebar-item">Admin</h1>
-<<<<<<< HEAD
       <a class="link" href="#orders" data-link="orders">Order History</a>
       <a class="link" href="#users" data-link="users">User List</a>
       <a class="link" href="#editprod" data-link="editprod">Add/Edit Product</a>
       <a class="link" href="#editsupp" data-link="editsupp">Add/Edit Supplier</a>
-=======
-      <a class="link" href="#orders" data-link="orders">Order History</a></li>
-      <a class="link" href="#users" data-link="users">User List</a></li>
-      <a class="link" href="#settings" data-link="editprod">Add/Edit Product</a></li>
-	    <a class="link" href="#settings" data-link="editsupp">Add/Edit Supplier</a></li>
->>>>>>> 4d5b9c8f393078a825da68f131b20eb0f7d1f016
     </div>
     <div class="content-container">
 
@@ -90,7 +83,6 @@
           <h2>Add/Edit Products</h2>
         </div>
         <div class="content">
-<<<<<<< HEAD
 		      <form method='post' action='addeditprod.php'>
             <label for='product'>Choose a product to edit:</label>
             <select name='product'>
@@ -109,17 +101,6 @@
             <!-- <select name='supplierId'> -->
 
             <!-- </select>  -->
-=======
-		      
-          <form method='post' action='addeditprod'>
-            <p>Enter Product ID: <input type="number" name="productId"></p>
-            <p>Enter Product Name: <input type="number" name="productName"></p>
-			      <p>Enter Strain: <input type="number" name="strain"></p>
-			      <p>Enter Potency THC: <input type="number" name="potencyThc"></p>
-			      <p>Enter Potency CBD: <input type="number" name="potencyCbd"></p>
-            <p>Enter Price: <input type="number" name="price"></p>
-            <p>Enter Description: <input type="number" name="description"></p>
->>>>>>> 4d5b9c8f393078a825da68f131b20eb0f7d1f016
             <p>Enter Supplier ID: <input type="number" name="supplierId"></p>
             <button type='submit'>Submit</button>
           </form>
@@ -134,18 +115,13 @@
           </form>
 
 		  </div>
-<<<<<<< HEAD
     </div>
       <div class="content-area" data-link="editsupp">
-=======
-    </div>	
-	      <div class="content-area" data-link="editsupp">
->>>>>>> 4d5b9c8f393078a825da68f131b20eb0f7d1f016
         <div class="content-header">
           <h2>Add/Edit Supplier</h2>
         </div>
         <div class="content">
-		      
+
           <form action="productImgUpload.php" method="post" enctype="multipart/form-data">
             <p>Enter Supplier ID: <input type="numeric" name="supplierId"></p>
             <p>Enter Supplier Name: <input type="numeric" name="supplierName"></p>
@@ -156,7 +132,7 @@
 			      <p>Enter Email: <input type="numeric" name="email"></p>
 			      <p>Enter Phone Number: <input type="numeric" name="phoneNum"></p>
           </form>
-		
+
 		  </div>
     </div>
     </div>
