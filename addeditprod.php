@@ -27,8 +27,6 @@ if (isset($_POST['insert'])){
 
     if ($sql->num_rows == 0)
       echo "<script language='javascript'>alert('Product not found in database, contact administrator');window.location.replace('adminAccount.php');</script>";
-    else
-      echo "<script language='javascript'>alert('Update could not be executed, contact an administrator');window.location.replace('adminAccount.php');</script>";
   }
 
   $productName = ($_POST['productName'] == null) ? $old_productName : $_POST['productName'];
