@@ -90,19 +90,19 @@
               <option value='new'>Add new product</option>
               <?php include 'productList.php'; ?>
             </select>
-            <p>Enter Product Name: *<input type="text" name="productName"></p>
-			      <p>Enter Strain: *<input type="text" name="strain"></p>
+            <p>Enter Product Name: <input type="text" name="productName">*</p>
+			      <p>Enter Strain: <input type="text" name="strain">*</p>
 			      <p>Enter Potency THC: <input type="number" min='0' max='100' name="potencyThc"></p>
 			      <p>Enter Potency CBD: <input type="number" min='0' max='100' name="potencyCbd"></p>
             <p>Enter Price: <input type="number" name="price"></p>
             <p>Enter Description: <input type="text" name="description"></p>
-            <p>Enter Stock: <input type="number" name="stock" value='1'></p>
-            <p>Check if stock is limited: <input type="checkbox" name="isLimited"></p>
+            <p>Enter Stock: <input type="number" name="stock"></p>
+            <p>Check if stock is limited: <input type="checkbox" name="isLimited" value='1'></p>
             <!-- <select name='supplierId'> -->
 
             <!-- </select>  -->
             <p>Enter Supplier ID: <input type="number" name="supplierId"></p>
-            <button type='submit'>Submit</button>
+            <button type='submit' name='insert'>Insert New</button><button type='submit' name='update'>Update</button>
           </form>
           <form action="productImgUpload.php" method="post" enctype="multipart/form-data">
             <label for='productName'>Choose a product to edit:</label>
