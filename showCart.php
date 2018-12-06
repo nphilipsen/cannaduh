@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Your Shopping Cart</title>
+<?php include 'sessionCheck.php'; ?>
 </head>
 <body>
 
@@ -33,6 +33,4 @@ if (isset($_SESSION['productList'])){
 }
 ?>
 </body>
-</html> 
-
-
+</html>

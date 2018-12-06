@@ -1,7 +1,6 @@
 
 <?php
-// Get the current list of products
-session_start();
+include 'sessionCheck.php';
 include 'include/db_connect.php';
 $productList = null;
 if (isset($_SESSION['productList'])){
@@ -26,9 +25,9 @@ if(isset($_GET['id'])){
 
 // Update quantity if add same item to order again
 if (isset($productList[$id])){
-	$productList[$id]['quantity'] = $productList[$id]['quantity'] + 1;
+	$productList[$id]['quantity'] = $productList[$id]['quantity'] + $_GET['q'];
 } else {
-	$productList[$id] = array( "id"=>$id, "name"=>$name, "price"=>$price, "quantity"=>1 );
+	$productList[$id] = array( "id"=>$id, "name"=>$name, "price"=>$price, "quantity"=>$_GET['q'] );
 }
 
 $_SESSION['productList'] = $productList;
